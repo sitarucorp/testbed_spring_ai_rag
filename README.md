@@ -1,13 +1,17 @@
 ## Prerequisites
-| Component     | Version        |
-|---------------|----------------|
-| Spring Boot   | 4.0.8          |
-| Spring AI     | 2.0.1          |
-| Maven         | 3.9.9          |
-| Java          | 22.0.2         |
-| LLM (local)   | Ollama:0.40.4  |
-| Model Default | llma3.2:latest |
-| Model Switch  | gemma4:latest  |
+| Component      | Version                |
+|----------------|------------------------|
+| Spring Boot    | 4.0.8                  |
+| Spring AI      | 2.0.1                  |
+| Maven          | 3.9.9                  |
+| Java           | 22.0.2                 |
+| LLM (local)    | Ollama:0.40.4          |
+| Model Default  | llma3.2:latest         |
+| Model Switch   | gemma4:latest          |
+| Quantization   | Q4_K_M                 | 
+| RAG Dimensions | COSINE topK(5)         |
+| vector-db      | Postgres pgvector:pg17 | 
+
 
 ```bash
 irm https://ollama.com/install.ps1 | iex
