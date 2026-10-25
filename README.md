@@ -83,7 +83,43 @@ PS G:\work\spring-ai-rag\testbed_spring_ai_rag> ollama show llama4
     Llama 4 Version Effective Date: April 5, 2025    
     ...                        
 ```
+```
+C:\Users\giris>ollama show gemma4
+  Model
+    architecture        gemma4
+    parameters          7.5B
+    context length      131072
+    embedding length    2560
+    quantization        Q4_K_M
+    requires            0.30.9
 
+  Capabilities
+    completion
+    vision
+    audio
+    tools
+    thinking
+        levels     false, true
+        default    true
+
+  Projector
+    architecture        clip
+    parameters          478.09M
+    embedding length    768
+    dimensions          2560
+
+  Parameters
+    top_k                64
+    top_p                0.95
+    draft_num_predict    3
+    temperature          1
+
+  License
+    Apache License
+    Version 2.0, January 2004
+    ...
+
+```
 ```prototext
 PS G:\work\spring-ai-rag\testbed_spring_ai_rag> ollama list                        
 NAME                       ID              SIZE      MODIFIED      
